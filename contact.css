@@ -1,0 +1,103 @@
+ .contact-section {
+            padding: 40px;
+            background-color: #f8f9fa;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin-bottom: 5px;
+            color: #6c757d;
+        }
+        .map {
+            border: 1px solid #dee2e6;
+        }
+        .form-section {
+            margin-top: 40px;
+        }
+        .form-section h4 {
+            margin-bottom: 20px;
+        }
+        .form-section .form-control {
+            margin-bottom: 20px;
+        }
+        .form-section .btn-submit {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .form-section .btn-submit:hover {
+            background-color: #218838;
+        }
+     .container-fluid {
+  background-color: black;
+}
+
+.nav-link,
+.nav-link:active,
+.nav-link:focus {
+  color: #FFFFFF;
+}
+
+.nav-link:hover {
+  color: #D4AF37;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  padding: 10px 0;
+  min-width: 200px;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  color: #FFFFFF;
+  padding: 5px 15px;
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #D4AF37;
+  color: black;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.logo-img {
+  width: 100px; /* Set the desired width */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+.navbar-nav.cart-nav {
+  margin-left: auto; /* Pushes the cart icon to the right */
+}
+
+body {
+  padding-top: 127px; /* Adjust this value according to the height of your navbar */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.brand-logo {
+  max-height: 50px;
+  width: auto;
+}
+
+.banner-image-container {
+    text-align: center; /* Centers the image horizontally */
+    margin-top: 5px; /* Adjust if needed based on navbar height */
+}
+
+.banner-image {
+    width: 100%; /* Makes the image full width */
+    height: auto; /* Maintains aspect ratio */
+}

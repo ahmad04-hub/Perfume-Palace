@@ -1,0 +1,299 @@
+.container-fluid {
+  background-color: black;
+}
+
+.nav-link,
+.nav-link:active,
+.nav-link:focus {
+  color: #FFFFFF;
+}
+
+.nav-link:hover {
+  color: #D4AF37;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  padding: 10px 0;
+  min-width: 200px;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  color: #FFFFFF;
+  padding: 5px 15px;
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #D4AF37;
+  color: black;
+}
+.nav-item .dropdown-menu .dropdown-item:active,
+.nav-item .dropdown-menu .dropdown-item:focus{
+ 
+  background-color: black; /* Ensure the background stays black */
+  color: #FFFFFF; /* Ensure the text color stays white */
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.logo-img {
+  width: 100px; /* Set the desired width */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+.navbar-nav.cart-nav {
+  margin-left: auto; /* Pushes the cart icon to the right */
+}
+
+body {
+  padding-top: 127px; /* Adjust this value according to the height of your navbar */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.brand-logo {
+  max-height: 50px;
+  width: auto;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #f8f9fa; /* Light gray background for arrows */
+  border-radius: 50%;        /* Make the control icons round */
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  color: #000; /* Black color for the arrow icons */
+}
+.section-title {
+  font-family: 'Cursive', sans-serif;
+  font-size: 1.5rem;
+  color: #FFFDD0;
+}
+
+.section-subtitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FFFDD0;
+}
+
+.section-description {
+  color: #FFFDD0;
+  font-size: 1rem;
+}
+#best-seller-cont{
+	background-color: #4B0082;
+	padding: 50px 0;
+}
+.product-card {
+  position: relative;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+}
+
+.quicklook {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  display: none;
+  font-size: 1rem;
+}
+
+.product-card:hover .quicklook {
+  display: block;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.card-text {
+  color: #555;
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: bold;
+}
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+
+.footer {
+    background-color: #000000; /* Black background for the footer */
+    padding: 40px 0;
+    color: #FFFDD0; /* Cream text color */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer .text-uppercase {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #D4AF37; /* Gold color for headings */
+}
+
+.footer .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.footer .list-unstyled a {
+    color: #FFFDD0; /* Cream color for links */
+    text-decoration: none;
+}
+
+.footer .list-unstyled a:hover {
+    color: #D4AF37; /* Gold color on hover */
+    text-decoration: underline;
+}
+
+.footer .form-group {
+    margin-bottom: 15px;
+}
+
+.footer .form-control {
+    border-radius: 0;
+    background-color: #4B0082; /* Deep Purple background for input */
+    border-color: #4B0082;
+    color: #FFFDD0; /* Cream text color */
+}
+
+.footer .form-control::placeholder {
+    color: #FFFDD0; /* Cream color for placeholder */
+}
+
+.footer .btn-outline-light {
+    border-color: #D4AF37; /* Gold border color */
+    color: #D4AF37; /* Gold text color */
+}
+
+.footer .btn-outline-light:hover {
+    background-color: #D4AF37; /* Gold background on hover */
+    color: #000000; /* Black text color on hover */
+    border-color: #D4AF37;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    background-color: #4B0082; /* Deep Purple for the footer bottom */
+    color: #FFFDD0; /* Cream text color */
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #D4AF37; /* Gold color for links in the bottom section */
+}
+
+.footer-bottom a:hover {
+    color: #FFFDD0; /* Cream color on hover */
+    text-decoration: underline;
+}
+#cartSidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px; /* Adjust width as needed */
+    height: 100%;
+    background-color: #ffffff; /* or your desired color */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1050; /* Ensure it's on top of other content */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.cart-body {
+    padding: 15px;
+    max-height: calc(100% - 60px); /* Adjust based on header/footer height */
+    overflow-y: auto; /* Enable scrolling if content exceeds max-height */
+}
+/* Visible state of the sidebar */
+#cartSidebar.open {
+    transform: translateX(0);
+}
+
+/* Button styles */
+#openCartBtn {
+    cursor: pointer;
+    color: white;
+}
+#openCartBtn:hover {
+    cursor: pointer;
+    color: #D4AF37;
+}
+
+.cart-header {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-close {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-footer {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for images in the cart */
+.cart-item img {
+    width: 50px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between image and text */
+}
+.cart-item .remove-item {
+    margin-left: auto; /* Pushes the button to the far right */
+    margin-right: 10px; /* Adjust as needed for spacing */
+}

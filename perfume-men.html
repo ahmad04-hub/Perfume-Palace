@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Men's Fragrance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="perfume-men.css">
+    <script type="text/javascript" src="perfume-men.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="homepage.html"><img src="./images/logo.png" class="logo-img"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link  " aria-current="page" href="homepage.html" target="blanck">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="men.html">Men</a>
+           <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="perfume-men.html" target="blanck">Perfume</a></li>
+                
+                <li><a class="dropdown-item" href="giftset-men.html" target="blanck">Gift Sets</a></li>
+                <li><a class="dropdown-item" href="mini-men.html" target="blanck">Perfume Sampels</a></li>
+                 
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Women.html" target="blanck">Women</a>
+           <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="perfume-women.html" target="blanck">Perfume</a></li>
+                
+                <li><a class="dropdown-item" href="giftset-women.html" target="blanck">Gift Sets</a></li>
+                <li><a class="dropdown-item" href="mini-women.html" target="blanck">Perfume Sampels</a></li>
+          </ul>
+        </li>
+        
+         <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+          <ul class="dropdown-menu">
+            
+                <li><a class="dropdown-item" href="giftset.html" target="blanck">Gift Sets</a></li>
+                <li><a class="dropdown-item" href="travel.html" target="blanck">Travel Size</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="blanck">Contact Us</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="aboutUs.html" target="blanck">About Us</a>
+        </li>
+       
+      </ul>
+
+      <ul class="navbar-nav cart-nav">
+          <li class="nav-item">
+             <button class="btn " id="openCartBtn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+              </svg>
+            </button>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html" target="blanck">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+</svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- --------------------------------------------------------------- -->
+  <section class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="./images/men.jpg" alt="Men's Fragrances" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>Fragrances for Men</h2>
+                <p>Dare to be different! Contradiction, intensity, daring. Virility dares at Rabanne... Signature fragrances for men. Completely insolent. A powerful heir, an absolute hero or a bad boy... For each man there is a Rabanne scent.</p>
+            </div>
+        </div>
+    </section>
+  <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+  <div class="container-fluid" id="best-seller-cont">
+  <h2 class="section-subtitle">Men Fragrance</h2>
+  <div class="container text-center">
+    <div class="row">
+      <!-- First Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/Valentino1.jpg" class="card-img-top product-img" alt="Product 1">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModal">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">Valentino</h5>
+            <p class="card-text">Uomo Born In Roma Intense Eau de Parfum</p>
+            <p class="price">$110.00 - $140.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/versace1.jpg" class="card-img-top product-img" alt="Product 2">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa2">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">Versace</h5>
+            <p class="card-text">Eros Eau de Toilette<br></br></p>
+            <p class="price">$32.00 - $140.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/viktor1.jpg" class="card-img-top product-img" alt="Product 3">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa3">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">Viktor&Rolf</h5>
+            <p class="card-text">Spicebomb Extreme Eau de Parfum <br></br></p>
+            <p class="price">$140.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/tom1.jpg" class="card-img-top product-img" alt="Product 4">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa4">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">TOM FORD</h5>
+            <p class="card-text">Tobacco Vanille Eau de Parfum Fragrance</p></a>
+            <p class="price">$35.00 - $445.00</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End of Row -->
+    <!-- Video Section -->
+    <div class="row my-4">
+      <div class="col">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="1200px" height="315" src="https://www.youtube.com/embed/HC0kQKIF9Ss?si=A_KmLAeP3qV1FSpC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> <!-- End of Video Row -->
+    <div class="row">
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/dior1.jpg" class="card-img-top product-img" alt="Product 1">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa5">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">Dior</h5>
+            <p class="card-text">Sauvage Eau de Toilette <br></br></p>
+            <p class="price">$68.00 - $235.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/jean1.jpg" class="card-img-top product-img" alt="Product 2">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa6">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">Jean Paul Gaultier</h5>
+            <p class="card-text">Le Male Le Parfum<br></br></p>
+            <p class="price"> $140.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/saint1.jpg" class="card-img-top product-img" alt="Product 3">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa7">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">Yves Saint Laurent</h5>
+            <p class="card-text">Y Eau de Parfum <br></br></p>
+            <p class="price">$125.00 - $155.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/chanel1.jpg" class="card-img-top product-img" alt="Product 4">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa8">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">CHANEL</h5>
+            <p class="card-text">BLEU DE CHANEL Eau de Parfum <br></br></p>
+            <p class="price">$130.00 - $190.00</p>
+          </div>
+        </div>
+      </div>
+
+    </div>  <!-- End of Row -->
+    <div class="row">
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/burberry1.jpg" class="card-img-top product-img" alt="Product 1">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa9">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">BURBERRY</h5>
+            <p class="card-text">Hero Eau de Parfum <br></br></p>
+            <p class="price">$120.00 - $153.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/prada1.jpg" class="card-img-top product-img" alt="Product 2">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa10">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">Prada</h5>
+            <p class="card-text">Luna Rossa Ocean Eau de Parfum<br></br></p>
+            <p class="price"> $110.00 - $140.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/one1.jpg" class="card-img-top product-img" alt="Product 3">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa11">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">Rabanne</h5>
+            <p class="card-text">1 Million Eau de Toilette <br></br></p>
+            <p class="price">$35.00 - $160.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Product -->
+      <div class="col-3">
+        <div class="card product-card">
+          <img src="./images/jean2.jpg" class="card-img-top product-img" alt="Product 4">
+          <div class="quicklook" data-bs-toggle="modal" data-bs-target="#productModa12">Quicklook</div>
+          <div class="card-body">
+            <h5 class="card-title">Jean Paul Gaultier</h5>
+            <p class="card-text">A fragrance with notes of amber and tropical tonka bean. </p>
+            <p class="price">$119.00 - $152.00</p>
+          </div>
+        </div>
+      </div>
+
+    </div>  <!-- End of Row -->
+  </div> <!-- End of Container -->
+</div> <!-- End of Container-Fluid -->
+<div id="cartSidebar">
+    <div class="cart-header">
+      <span>My Shopping Cart</span>
+      <button class="btn-close" id="closeCartBtn">&times;</button>
+    </div>
+    <div class="cart-body">
+      <!-- Cart items will be inserted here dynamically -->
+    </div>
+    <div class="cart-footer">
+      <div class="d-flex justify-content-between">
+        <span>Cart Total (Including VAT)</span>
+        <strong id="cartTotal">0 TL</strong>
+      </div>
+      <div class="d-flex justify-content-between mt-3">
+        <span>Shipping</span>
+        <strong> Free Shipping</strong>
+      </div>
+      <a href="payment.html" target="blanck"><button class="btn btn-success mt-3 w-100">COMPLETE ORDER</button></a>
+    </div>
+  </div>
+  <!-- ------------------------------------------------------------------------------------------------ -->
+
+
+
+
+    <!-- Product Detail Modal -->
+<!-- Modal for Valentino -->
+<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Valentino</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/Valentino1.jpg" class="img-fluid" alt="Valentino Uomo">
+          </div>
+          <div class="col-6">
+            <h5>Uomo Born In Roma Intense Eau de Parfum</h5>
+            <p id="product-price" class="price">$110.00 - $140.00</p>
+            <p>A warm, spicy fragrance with a hypnotic aura.</p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectValentino">Size</label>
+            <select id="sizeSelectValentino" class="form-select">
+              <option value="110.00" data-size="50 ml">50 ml - $110.00</option>
+              <option value="140.00" data-size="100 ml">100 ml - $140.00</option>
+            </select>
+            <div class="mt-3">
+              <button class="btn btn-dark add-to-cart" data-name="Valentino" data-size-select-id="sizeSelectValentino">Add to Cart</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Versace -->
+<!-- Example of a Product Modal -->
+<div class="modal fade" id="productModa2" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Versace</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/versace1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>Eros Eau de Toilette</h5>
+            <p id="product-price" class="price">$32.00 - $140.00</p>
+            <p>A fragrance that pays tribute to the ancient god of love, passion, and the sublime masculine.</p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectVersace">Size</label> <!-- Unique ID -->
+            <select id="sizeSelectVersace" class="form-select">
+              <option value="" selected>Choose...</option>
+              <option value="32.00" data-size="10 ml">$32.00 - 10 ml</option>
+              <option value="80.00" data-size="50 ml">$80.00 - 50 ml</option>
+              <option value="105.00" data-size="100 ml">$105.00 - 100 ml</option>
+              <option value="140.00" data-size="200 ml">$140.00 - 200 ml</option>
+            </select>
+            <div class="mt-3">
+              <button class="btn btn-dark add-to-cart" data-name="Versace" data-size-select-id="sizeSelectVersace">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="productModa3" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Viktor&Rolf</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/viktor1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>Spicebomb Extreme Eau de Parfum</h5>
+            <p id="product-price" class="price"> $140.00</p>
+            <p>An explosive men’s fragrance featuring notes of black pepper, lavender, tobacco, and vanilla.</p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectViktor&Rolf">Size</label>
+            <select id="sizeSelectViktor&Rolf" class="form-select">
+             
+              <option  value="140.00" data-size="200 ml">$140.00 - 200 ml</option>
+            </select>
+            <div class="mt-3">
+               <button class="btn btn-dark add-to-cart" data-name="Viktor&Rolf" data-size-select-id="sizeSelectViktor&Rolf">Add to Cart</button>
+            </div>
+            
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModa4" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">TOM FORD</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/tom1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>Tobacco Vanille Eau de Parfum Fragrance</h5>
+            <p id="product-price" class="price">$32.00 - $140.00</p>
+            <p>A warm, spicy fragrance that reinvents the classic tobacco scent.</p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectTOM FORD">Size</label>
+            <select id="sizeSelectTOM FORD" class="form-select">
+              <option value="" selected>Choose...</option>
+              <option value="75.00" data-size="10 ml">$75.00 - 10 ml</option>
+              <option value="195.00" data-size="50 ml">$195.00 - 50 ml</option>
+              <option value="300.00" data-size="100 ml">$300.00 - 100 ml</option>
+              <option value="445.00" data-size="200 ml">$445.00 - 200 ml</option>
+            </select>
+            <div class="mt-3">
+               <button class="btn btn-dark add-to-cart" data-name="TOM FORD" data-size-select-id="sizeSelectTOM FORD">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModa5" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Dior</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/dior1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>Sauvage Eau de Toilette</h5>
+            <p id="product-price" class="price">$68.00 - $235.00</p>
+            <p>A parfum with notes of Amberwood and bergamot.  </p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectDior">Size</label>
+            <select id="sizeSelectDior" class="form-select">
+              <option value="" selected>Choose...</option>
+             <option  value="68.00" data-size="10 ml">$68.00 - 10 ml</option>
+              <option  value="100.00" data-size="50 ml">$100.00 - 50 ml</option>
+              <option  value="120.00" data-size="100 ml">$120.00 - 100 ml</option>
+              <option  value="235.00" data-size="200 ml">$235.00 - 200 ml</option>
+              
+            </select>
+            <div class="mt-3">
+              <button class="btn btn-dark add-to-cart" data-name="Dior" data-size-select-id="sizeSelectDior">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModa6" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Jean Paul Gaultier</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/jean1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>Le Male Le Parfum</h5>
+            <p id="product-price" class="price">$142.00 </p>
+            <p>A fragrance with notes of amber and vanilla.  </p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectJean Paul Gaultier">Size</label>
+            <select id="sizeSelectJean Paul Gaultier" class="form-select">
+              <option value="" selected>Choose...</option>
+             
+              <option  value="142.00" data-size="200 ml">$142.00 - 200 ml</option>
+              
+            </select>
+            <div class="mt-3">
+              <button class="btn btn-dark add-to-cart" data-name="Jean Paul Gaultier" data-size-select-id="sizeSelectJean Paul Gaultier">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModa7" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Yves Saint Laurent</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/saint1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>Y Eau de Parfum</h5>
+            <p id="product-price" class="price">$35.00 - $155.00</p>
+            <p>A bold fragrance that contains notes of sage and wood.  </p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectYves Saint Laurent">Size</label>
+            <select id="sizeSelectYves Saint Laurent" class="form-select">
+              <option value="" selected>Choose...</option>
+             <option value="35.00" data-size="10 ml">$35.00 - 10 ml</option>
+              <option value="100.00" data-size="50 ml">$100.00 - 50 ml</option>
+              <option value="120.00" data-size="100 ml">$120.00 - 100 ml</option>
+              <option value="155.00" data-size="200 ml">$155.00 - 200 ml</option>
+              
+            </select>
+            <div class="mt-3">
+               <button class="btn btn-dark add-to-cart" data-name="Yves Saint Laurent" data-size-select-id="sizeSelectYves Saint Laurent">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModa8" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">CHANEL</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/chanel1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>BLEU DE CHANEL Eau de Parfum</h5>
+            <p id="product-price" class="price">$130.00 - $190.00</p>
+            <p>Unexpected and undeniably bold. Fresh, clean, and profoundly sensual, the woody, aromatic fragrance reveals the spirit of a man who chooses his own destiny with independence and determination—a man who defies convention.  </p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectCHANEL">Size</label>
+            <select id="sizeSelectCHANEL" class="form-select">
+              <option value="" selected>Choose...</option>
+             
+              <option value="130.00" data-size="50 ml">$130.00 - 50 ml</option>
+              <option value="160.00" data-size="100 ml">$160.00 - 100 ml</option>
+              <option value="190.00" data-size="200 ml">$190.00 - 200 ml</option>
+              
+            </select>
+            <div class="mt-3">
+               <button class="btn btn-dark add-to-cart" data-name="CHANEL" data-size-select-id="sizeSelectCHANEL">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModa9" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">BURBERRY</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/burberry1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>Hero Eau de Parfum</h5>
+            <p id="product-price" class="price">$120.00 - $135.00</p>
+            <p>A fragrance with notes of pine and cedarwood.  </p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectBURBERRY">Size</label>
+            <select id="sizeSelectBURBERRY" class="form-select">
+              <option value="" selected>Choose...</option>
+             
+              
+              <option value="120.00" data-size="100 ml">$120.00 - 100 ml</option>
+              <option value="135.00" data-size="200 ml">$135.00 - 200 ml</option>
+              
+            </select>
+            <div class="mt-3">
+               <button class="btn btn-dark add-to-cart" data-name="BURBERRY" data-size-select-id="sizeSelectBURBERRY">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModa10" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Prada</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/prada1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>Luna Rossa Ocean Eau de Toilette</h5>
+            <p id="product-price" class="price">$30.00 - $150.00</p>
+            <p>A fragrance that contains notes of bergamot and vetiver.  </p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectPrada">Size</label>
+            <select id="sizeSelectPrada" class="form-select">
+              <option value="" selected>Choose...</option>
+             
+              <option value="30.00" data-size="15 ml">$30.00 -15 ml</option>
+              <option value="120.00" data-size="100 ml">$120.00 - 100 ml</option>
+              <option value="150.00" data-size="200 ml">$150.00 - 200 ml</option>
+              
+            </select>
+            <div class="mt-3">
+              <button class="btn btn-dark add-to-cart" data-name="Prada" data-size-select-id="sizeSelectPrada">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModa11" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Rabanne</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/prada1.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>1 Million Eau de Toilette</h5>
+            <p id="product-price" class="price">$35.00 - $160.00</p>
+            <p>This high-impact fragrance creates a multifaceted signature of masculinity, blending the freshness of grapefruit and mint with a hint of spice, and the velvety harmony of leather and patchouli.  </p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectRabanne">Size</label>
+            <select id="sizeSelectRabanne" class="form-select">
+              <option value="" selected>Choose...</option>
+               <option value="152.00" data-price="$105.00">$35.00 -15 ml</option>
+             
+              <option value="100.00" data-size="50 ml">$100.00 -50 ml</option>
+              <option  value="120.00" data-size="100 ml">$120.00 - 100 ml</option>
+              <option  value="150.00" data-size="200 ml">$150.00 - 200 ml</option>
+              
+            </select>
+            <div class="mt-3">
+              <button class="btn btn-dark add-to-cart" data-name="Rabanne" data-size-select-id="sizeSelectRabanne">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productModa12" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">Jean Paul Gaultier</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <img src="./images/jean2.jpg" class="img-fluid" alt="Le Male Elixir">
+          </div>
+          <div class="col-6">
+            <h5>Le Male Elixir</h5>
+            <p id="product-price" class="price">$119.00 - $152.00</p>
+            <p>A fragrance with notes of amber and tropical tonka bean. </p>
+            <p>Free shipping</p>
+            
+            <label for="sizeSelectJean Paul Gaultier2">Size</label>
+            <select id="sizeSelectJean Paul Gaultier2" class="form-select">
+              <option value="" selected>Choose...</option>
+              
+              <option value="120.00" data-size="100 ml">$120.00 - 100 ml</option>
+              <option value="150.00" data-size="200 ml">$150.00 - 200 ml</option>
+              
+            </select>
+            <div class="mt-3">
+              <button class="btn btn-dark add-to-cart" data-name="Jean Paul Gaultier" data-size-select-id="sizeSelectJean Paul Gaultier2">Add to Cart</button>
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+<footer class="footer bg-dark text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5 class="text-uppercase">Contact Us</h5>
+        <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z"/>
+</svg> Hamidiye Mah. Dilaver Sok. No:6/9 Kagthane Istanbul</p>
+        <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+  <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+</svg> mada05.saeedy@gmail.com</p>
+        <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+</svg> 05356032686</p>
+      </div>
+      <div class="col-md-4">
+        <h5 class="text-uppercase">Useful Links</h5>
+        <ul class="list-unstyled">
+         <li><a href="homepage.html" class="text-white">Home Pages</a></li>
+          <li><a href="men.html" class="text-white">Men</a></li>
+          <li><a href="contact.html" class="text-white">Contact Us</a></li>
+          
+          <li><a href="#" class="text-white">Shop Products</a></li>
+          <li><a href="aboutUs.html" class="text-white">About Us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5 class="text-uppercase">Subscribe</h5>
+        <form>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+          <button type="submit" class="btn btn-outline-light">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom bg-secondary text-center py-3">
+    <p>© 2024 Perfume Palace | 
+  </div>
+</footer>
+  <!-- Font Awesome (for icons) -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script type="text/javascript" src="perfume-men.js"></script>
+<!-- Item Added to Cart Modal -->
+<div class="modal fade" id="itemAddedModal" tabindex="-1" aria-labelledby="itemAddedModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <p>Item added to cart!</p>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+
+</html>

@@ -1,0 +1,218 @@
+.container-fluid {
+  background-color: black;
+}
+
+.nav-link,
+.nav-link:active,
+.nav-link:focus {
+  color: #FFFFFF;
+}
+
+.nav-link:hover {
+  color: #D4AF37;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  padding: 10px 0;
+  min-width: 200px;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  color: #FFFFFF;
+  padding: 5px 15px;
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #D4AF37;
+  color: black;
+}
+.nav-item .dropdown-menu .dropdown-item:active,
+.nav-item .dropdown-menu .dropdown-item:focus{
+ 
+  background-color: black; /* Ensure the background stays black */
+  color: #FFFFFF; /* Ensure the text color stays white */
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.logo-img {
+  width: 100px; /* Set the desired width */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+.navbar-nav.cart-nav {
+  margin-left: auto; /* Pushes the cart icon to the right */
+}
+
+body {
+  padding-top: 128px; /* Adjust this value according to the height of your navbar */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.brand-logo {
+  max-height: 50px;
+  width: auto;
+}
+.hero-section {
+    background-image: url('./images/build.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Full-screen height */
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.hero-section .text-center {
+    position: relative;
+    z-index: 1; /* Ensure text is above overlay */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Breadcrumb */
+.fragrance-breadcrumb {
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumb-link:hover {
+    text-decoration: underline;
+}
+
+/* Fragrance Section */
+.fragrance-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fragrance-row {
+    align-items: center;
+}
+
+.fragrance-image-container {
+    padding-right: 15px;
+}
+
+.fragrance-image {
+    border-radius: 10px;
+}
+
+.fragrance-text-container {
+    padding-left: 15px;
+}
+
+.fragrance-title {
+    font-weight: bold;
+}
+
+.fragrance-description {
+    margin-top: 1rem;
+    color: #555;
+}
+.footer {
+    background-color: #000000; /* Black background for the footer */
+    padding: 40px 0;
+    color: #FFFDD0; /* Cream text color */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer .text-uppercase {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #D4AF37; /* Gold color for headings */
+}
+
+.footer .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.footer .list-unstyled a {
+    color: #FFFDD0; /* Cream color for links */
+    text-decoration: none;
+}
+
+.footer .list-unstyled a:hover {
+    color: #D4AF37; /* Gold color on hover */
+    text-decoration: underline;
+}
+
+.footer .form-group {
+    margin-bottom: 15px;
+}
+
+.footer .form-control {
+    border-radius: 0;
+    background-color: #4B0082; /* Deep Purple background for input */
+    border-color: #4B0082;
+    color: #FFFDD0; /* Cream text color */
+}
+
+.footer .form-control::placeholder {
+    color: #FFFDD0; /* Cream color for placeholder */
+}
+
+.footer .btn-outline-light {
+    border-color: #D4AF37; /* Gold border color */
+    color: #D4AF37; /* Gold text color */
+}
+
+.footer .btn-outline-light:hover {
+    background-color: #D4AF37; /* Gold background on hover */
+    color: #000000; /* Black text color on hover */
+    border-color: #D4AF37;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    background-color: #4B0082; /* Deep Purple for the footer bottom */
+    color: #FFFDD0; /* Cream text color */
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #D4AF37; /* Gold color for links in the bottom section */
+}
+
+.footer-bottom a:hover {
+    color: #FFFDD0; /* Cream color on hover */
+    text-decoration: underline;
+}

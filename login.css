@@ -1,0 +1,112 @@
+ body {
+            background-color: #A7C7E7; /* Soft Blue */
+            color: #FFFFFF; /* White */
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            background-color: #C0C0C0; /* Silver */
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #98FF98; /* Mint Green */
+            border: none;
+            color: #000000; /* Black */
+        }
+
+        .btn-primary:hover {
+            background-color: #A7C7E7; /* Soft Blue */
+            color: #FFFFFF; /* White */
+        }
+
+        .form-control {
+            background-color: #FFFFFF; /* White */
+            border: 1px solid #C0C0C0; /* Silver */
+            color: #000000; /* Black */
+        }
+
+        .form-control:focus {
+            border-color: #98FF98; /* Mint Green */
+            box-shadow: none;
+        }
+
+        .text-muted {
+            color: #FFFFFF; /* White */
+        }
+
+        .link-primary {
+            color: #A7C7E7; /* Soft Blue */
+        }
+
+        .link-primary:hover {
+            color: #98FF98; /* Mint Green */
+        }
+.container-fluid {
+  background-color: black;
+}
+
+.nav-link,
+.nav-link:active,
+.nav-link:focus {
+  color: #FFFFFF;
+}
+
+.nav-link:hover {
+  color: #D4AF37;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  padding: 10px 0;
+  min-width: 200px;
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+  color: #FFFFFF;
+  padding: 5px 15px;
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #D4AF37;
+  color: black;
+}
+.nav-item .dropdown-menu .dropdown-item:active,
+.nav-item .dropdown-menu .dropdown-item:focus{
+ 
+  background-color: black; /* Ensure the background stays black */
+  color: #FFFFFF; /* Ensure the text color stays white */
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.logo-img {
+  width: 100px; /* Set the desired width */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+.navbar-nav.cart-nav {
+  margin-left: auto; /* Pushes the cart icon to the right */
+}
+
+body {
+  padding-top: 128px; /* Adjust this value according to the height of your navbar */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.brand-logo {
+  max-height: 50px;
+  width: auto;
+}
